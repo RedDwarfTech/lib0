@@ -1,10 +1,10 @@
 {
   "name": "rdlib0",
-  "version": "0.2.103",
+  "version": "0.2.104",
   "description": "",
   "sideEffects": false,
   "type": "module",
-  "main": "./dist/index.cjs",
+  "main": "./dist/index.mjs",
   "module": "./index.js",
   "types": "./index.d.ts",
   "funding": {
@@ -22,461 +22,461 @@
       "types": "./index.d.ts",
       "module": "./index.js",
       "import": "./index.js",
-      "require": "./dist/index.cjs"
+      "require": "./dist/index.mjs"
     },
     "./array.js": "./array.js",
-    "./dist/array.cjs": "./dist/array.cjs",
+    "./dist/array.mjs": "./dist/array.mjs",
     "./array": {
       "types": "./array.d.ts",
       "module": "./array.js",
       "import": "./array.js",
-      "require": "./dist/array.cjs"
+      "require": "./dist/array.mjs"
     },
     "./binary.js": "./binary.js",
-    "./dist/binary.cjs": "./dist/binary.cjs",
+    "./dist/binary.mjs": "./dist/binary.mjs",
     "./binary": {
       "types": "./binary.d.ts",
       "module": "./binary.js",
       "import": "./binary.js",
-      "require": "./dist/binary.cjs"
+      "require": "./dist/binary.mjs"
     },
     "./broadcastchannel.js": "./broadcastchannel.js",
-    "./dist/broadcastchannel.cjs": "./dist/broadcastchannel.cjs",
+    "./dist/broadcastchannel.mjs": "./dist/broadcastchannel.mjs",
     "./broadcastchannel": {
       "types": "./broadcastchannel.d.ts",
       "module": "./broadcastchannel.js",
       "import": "./broadcastchannel.js",
-      "require": "./dist/broadcastchannel.cjs"
+      "require": "./dist/broadcastchannel.mjs"
     },
     "./buffer.js": "./buffer.js",
-    "./dist/buffer.cjs": "./dist/buffer.cjs",
+    "./dist/buffer.mjs": "./dist/buffer.mjs",
     "./buffer": {
       "types": "./buffer.d.ts",
       "module": "./buffer.js",
       "import": "./buffer.js",
-      "require": "./dist/buffer.cjs"
+      "require": "./dist/buffer.mjs"
     },
     "./cache.js": "./cache.js",
-    "./dist/cache.cjs": "./dist/cache.cjs",
+    "./dist/cache.mjs": "./dist/cache.mjs",
     "./cache": {
       "types": "./cache.d.ts",
       "module": "./cache.js",
       "import": "./cache.js",
-      "require": "./dist/cache.cjs"
+      "require": "./dist/cache.mjs"
     },
     "./component.js": "./component.js",
-    "./dist/component.cjs": "./dist/component.cjs",
+    "./dist/component.mjs": "./dist/component.mjs",
     "./component": {
       "types": "./component.d.ts",
       "module": "./component.js",
       "import": "./component.js",
-      "require": "./dist/component.cjs"
+      "require": "./dist/component.mjs"
     },
     "./conditions.js": "./conditions.js",
-    "./dist/conditions.cjs": "./dist/conditions.cjs",
+    "./dist/conditions.mjs": "./dist/conditions.mjs",
     "./conditions": {
       "types": "./conditions.d.ts",
       "module": "./conditions.js",
       "import": "./conditions.js",
-      "require": "./dist/conditions.cjs"
+      "require": "./dist/conditions.mjs"
     },
     "./crypto/jwt": {
       "types": "./crypto/jwt.d.ts",
       "module": "./crypto/jwt.js",
       "import": "./crypto/jwt.js",
-      "require": "./dist/jwt.cjs"
+      "require": "./dist/jwt.mjs"
     },
     "./crypto/aes-gcm": {
       "types": "./crypto/aes-gcm.d.ts",
       "module": "./crypto/aes-gcm.js",
       "import": "./crypto/aes-gcm.js",
-      "require": "./dist/aes-gcm.cjs"
+      "require": "./dist/aes-gcm.mjs"
     },
     "./crypto/ecdsa": {
       "types": "./crypto/ecdsa.d.ts",
       "module": "./crypto/ecdsa.js",
       "import": "./crypto/ecdsa.js",
-      "require": "./dist/ecdsa.cjs"
+      "require": "./dist/ecdsa.mjs"
     },
     "./crypto/rsa-oaep": {
       "types": "./crypto/rsa-oaep.d.ts",
       "module": "./crypto/rsa-oaep.js",
       "import": "./crypto/rsa-oaep.js",
-      "require": "./dist/rsa-oaep.cjs"
+      "require": "./dist/rsa-oaep.mjs"
     },
     "./hash/rabin": {
       "types": "./hash/rabin.d.ts",
       "module": "./hash/rabin.js",
       "import": "./hash/rabin.js",
-      "require": "./dist/rabin.cjs"
+      "require": "./dist/rabin.mjs"
     },
     "./hash/sha256": {
       "types": "./hash/sha256.d.ts",
       "browser": {
         "module": "./hash/sha256.js",
-        "require": "./dist/sha256.cjs",
+        "require": "./dist/sha256.mjs",
         "default": "./hash/sha256.js"
       },
       "node": {
-        "require": "./dist/sha256.node.cjs",
+        "require": "./dist/sha256.node.mjs",
         "default": "./hash/sha256.node.js"
       },
       "default": {
         "module": "./hash/sha256.js",
-        "require": "./dist/sha256.cjs",
+        "require": "./dist/sha256.mjs",
         "default": "./hash/sha256.js"
       }
     },
     "./decoding.js": "./decoding.js",
-    "./dist/decoding.cjs": "./dist/decoding.cjs",
+    "./dist/decoding.mjs": "./dist/decoding.mjs",
     "./decoding": {
       "types": "./decoding.d.ts",
       "module": "./decoding.js",
       "import": "./decoding.js",
-      "require": "./dist/decoding.cjs"
+      "require": "./dist/decoding.mjs"
     },
     "./diff.js": "./diff.js",
-    "./dist/diff.cjs": "./dist/diff.cjs",
+    "./dist/diff.mjs": "./dist/diff.mjs",
     "./diff": {
       "types": "./diff.d.ts",
       "module": "./diff.js",
       "import": "./diff.js",
-      "require": "./dist/diff.cjs"
+      "require": "./dist/diff.mjs"
     },
     "./dom.js": "./dom.js",
-    "./dist/dom.cjs": "./dist/dom.cjs",
+    "./dist/dom.mjs": "./dist/dom.mjs",
     "./dom": {
       "types": "./dom.d.ts",
       "module": "./dom.js",
       "import": "./dom.js",
-      "require": "./dist/dom.cjs"
+      "require": "./dist/dom.mjs"
     },
     "./encoding.js": "./encoding.js",
-    "./dist/encoding.cjs": "./dist/encoding.cjs",
+    "./dist/encoding.mjs": "./dist/encoding.mjs",
     "./encoding": {
       "types": "./encoding.d.ts",
       "module": "./encoding.js",
       "import": "./encoding.js",
-      "require": "./dist/encoding.cjs"
+      "require": "./dist/encoding.mjs"
     },
     "./environment.js": "./environment.js",
-    "./dist/environment.cjs": "./dist/environment.cjs",
+    "./dist/environment.mjs": "./dist/environment.mjs",
     "./environment": {
       "types": "./environment.d.ts",
       "module": "./environment.js",
       "import": "./environment.js",
-      "require": "./dist/environment.cjs"
+      "require": "./dist/environment.mjs"
     },
     "./error.js": "./error.js",
-    "./dist/error.cjs": "./dist/error.cjs",
+    "./dist/error.mjs": "./dist/error.mjs",
     "./error": {
       "types": "./error.d.ts",
       "module": "./error.js",
       "import": "./error.js",
-      "require": "./dist/error.cjs"
+      "require": "./dist/error.mjs"
     },
     "./eventloop.js": "./eventloop.js",
-    "./dist/eventloop.cjs": "./dist/eventloop.cjs",
+    "./dist/eventloop.mjs": "./dist/eventloop.mjs",
     "./eventloop": {
       "types": "./eventloop.d.ts",
       "module": "./eventloop.js",
       "import": "./eventloop.js",
-      "require": "./dist/eventloop.cjs"
+      "require": "./dist/eventloop.mjs"
     },
     "./function.js": "./function.js",
-    "./dist/function.cjs": "./dist/function.cjs",
+    "./dist/function.mjs": "./dist/function.mjs",
     "./function": {
       "types": "./function.d.ts",
       "module": "./function.js",
       "import": "./function.js",
-      "require": "./dist/function.cjs"
+      "require": "./dist/function.mjs"
     },
     "./indexeddb.js": "./indexeddb.js",
-    "./dist/indexeddb.cjs": "./dist/indexeddb.cjs",
+    "./dist/indexeddb.mjs": "./dist/indexeddb.mjs",
     "./indexeddb": {
       "types": "./indexeddb.d.ts",
       "module": "./indexeddb.js",
       "import": "./indexeddb.js",
-      "require": "./dist/indexeddb.cjs"
+      "require": "./dist/indexeddb.mjs"
     },
     "./isomorphic.js": "./isomorphic.js",
-    "./dist/isomorphic.cjs": "./dist/isomorphic.cjs",
+    "./dist/isomorphic.mjs": "./dist/isomorphic.mjs",
     "./isomorphic": {
       "types": "./isomorphic.d.ts",
       "module": "./isomorphic.js",
       "import": "./isomorphic.js",
-      "require": "./dist/isomorphic.cjs"
+      "require": "./dist/isomorphic.mjs"
     },
     "./iterator.js": "./iterator.js",
-    "./dist/iterator.cjs": "./dist/iterator.cjs",
+    "./dist/iterator.mjs": "./dist/iterator.mjs",
     "./iterator": {
       "types": "./iterator.d.ts",
       "module": "./iterator.js",
       "import": "./iterator.js",
-      "require": "./dist/iterator.cjs"
+      "require": "./dist/iterator.mjs"
     },
     "./json.js": "./json.js",
-    "./dist/json.cjs": "./dist/json.cjs",
+    "./dist/json.mjs": "./dist/json.mjs",
     "./json": {
       "types": "./json.d.ts",
       "module": "./json.js",
       "import": "./json.js",
-      "require": "./dist/json.cjs"
+      "require": "./dist/json.mjs"
     },
     "./list.js": "./list.js",
-    "./dist/list.cjs": "./dist/list.cjs",
+    "./dist/list.mjs": "./dist/list.mjs",
     "./list": {
       "types": "./list.d.ts",
       "module": "./list.js",
       "import": "./list.js",
-      "require": "./dist/list.cjs"
+      "require": "./dist/list.mjs"
     },
     "./logging.js": "./logging.js",
-    "./dist/logging.cjs": "./dist/logging.node.cjs",
+    "./dist/logging.mjs": "./dist/logging.node.mjs",
     "./logging": {
       "types": "./logging.node.d.ts",
       "deno": "./logging.node.js",
       "bun": "./logging.js",
       "browser": {
         "module": "./logging.js",
-        "require": "./dist/logging.cjs",
+        "require": "./dist/logging.mjs",
         "default": "./logging.js"
       },
       "node": {
         "module": "./logging.node.js",
-        "require": "./dist/logging.node.cjs",
+        "require": "./dist/logging.node.mjs",
         "default": "./logging.node.js"
       },
       "default": {
         "module": "./logging.js",
-        "require": "./dist/logging.cjs",
+        "require": "./dist/logging.mjs",
         "default": "./logging.js"
       }
     },
     "./map.js": "./map.js",
-    "./dist/map.cjs": "./dist/map.cjs",
+    "./dist/map.mjs": "./dist/map.mjs",
     "./map": {
       "types": "./map.d.ts",
       "module": "./map.js",
       "import": "./map.js",
-      "require": "./dist/map.cjs"
+      "require": "./dist/map.mjs"
     },
     "./math.js": "./math.js",
-    "./dist/math.cjs": "./dist/math.cjs",
+    "./dist/math.mjs": "./dist/math.mjs",
     "./math": {
       "types": "./math.d.ts",
       "module": "./math.js",
       "import": "./math.js",
-      "require": "./dist/math.cjs"
+      "require": "./dist/math.mjs"
     },
     "./metric.js": "./metric.js",
-    "./dist/metric.cjs": "./dist/metric.cjs",
+    "./dist/metric.mjs": "./dist/metric.mjs",
     "./metric": {
       "types": "./metric.d.ts",
       "module": "./metric.js",
       "import": "./metric.js",
-      "require": "./dist/metric.cjs"
+      "require": "./dist/metric.mjs"
     },
     "./mutex.js": "./mutex.js",
-    "./dist/mutex.cjs": "./dist/mutex.cjs",
+    "./dist/mutex.mjs": "./dist/mutex.mjs",
     "./mutex": {
       "types": "./mutex.d.ts",
       "module": "./mutex.js",
       "import": "./mutex.js",
-      "require": "./dist/mutex.cjs"
+      "require": "./dist/mutex.mjs"
     },
     "./number.js": "./number.js",
-    "./dist/number.cjs": "./dist/number.cjs",
+    "./dist/number.mjs": "./dist/number.mjs",
     "./number": {
       "types": "./number.d.ts",
       "module": "./number.js",
       "import": "./number.js",
-      "require": "./dist/number.cjs"
+      "require": "./dist/number.mjs"
     },
     "./object.js": "./object.js",
-    "./dist/object.cjs": "./dist/object.cjs",
+    "./dist/object.mjs": "./dist/object.mjs",
     "./object": {
       "types": "./object.d.ts",
       "module": "./object.js",
       "import": "./object.js",
-      "require": "./dist/object.cjs"
+      "require": "./dist/object.mjs"
     },
     "./observable.js": "./observable.js",
-    "./dist/observable.cjs": "./dist/observable.cjs",
+    "./dist/observable.mjs": "./dist/observable.mjs",
     "./observable": {
       "types": "./observable.d.ts",
       "module": "./observable.js",
       "import": "./observable.js",
-      "require": "./dist/observable.cjs"
+      "require": "./dist/observable.mjs"
     },
     "./pair.js": "./pair.js",
-    "./dist/pair.cjs": "./dist/pair.cjs",
+    "./dist/pair.mjs": "./dist/pair.mjs",
     "./pair": {
       "types": "./pair.d.ts",
       "module": "./pair.js",
       "import": "./pair.js",
-      "require": "./dist/pair.cjs"
+      "require": "./dist/pair.mjs"
     },
     "./prng.js": "./prng.js",
-    "./dist/prng.cjs": "./dist/prng.cjs",
+    "./dist/prng.mjs": "./dist/prng.mjs",
     "./prng": {
       "types": "./prng.d.ts",
       "module": "./prng.js",
       "import": "./prng.js",
-      "require": "./dist/prng.cjs"
+      "require": "./dist/prng.mjs"
     },
     "./promise.js": "./promise.js",
-    "./dist/promise.cjs": "./dist/promise.cjs",
+    "./dist/promise.mjs": "./dist/promise.mjs",
     "./promise": {
       "types": "./promise.d.ts",
       "module": "./promise.js",
       "import": "./promise.js",
-      "require": "./dist/promise.cjs"
+      "require": "./dist/promise.mjs"
     },
     "./queue.js": "./queue.js",
-    "./dist/queue.cjs": "./dist/queue.cjs",
+    "./dist/queue.mjs": "./dist/queue.mjs",
     "./queue": {
       "types": "./queue.d.ts",
       "module": "./queue.js",
       "import": "./queue.js",
-      "require": "./dist/queue.cjs"
+      "require": "./dist/queue.mjs"
     },
     "./random.js": "./random.js",
-    "./dist/random.cjs": "./dist/random.cjs",
+    "./dist/random.mjs": "./dist/random.mjs",
     "./random": {
       "types": "./random.d.ts",
       "module": "./random.js",
       "import": "./random.js",
-      "require": "./dist/random.cjs"
+      "require": "./dist/random.mjs"
     },
     "./set.js": "./set.js",
-    "./dist/set.cjs": "./dist/set.cjs",
+    "./dist/set.mjs": "./dist/set.mjs",
     "./set": {
       "types": "./set.d.ts",
       "module": "./set.js",
       "import": "./set.js",
-      "require": "./dist/set.cjs"
+      "require": "./dist/set.mjs"
     },
     "./sort.js": "./sort.js",
-    "./dist/sort.cjs": "./dist/sort.cjs",
+    "./dist/sort.mjs": "./dist/sort.mjs",
     "./sort": {
       "types": "./sort.d.ts",
       "module": "./sort.js",
       "import": "./sort.js",
-      "require": "./dist/sort.cjs"
+      "require": "./dist/sort.mjs"
     },
     "./statistics.js": "./statistics.js",
-    "./dist/statistics.cjs": "./dist/statistics.cjs",
+    "./dist/statistics.mjs": "./dist/statistics.mjs",
     "./statistics": {
       "types": "./statistics.d.ts",
       "module": "./statistics.js",
       "import": "./statistics.js",
-      "require": "./dist/statistics.cjs"
+      "require": "./dist/statistics.mjs"
     },
     "./storage.js": "./storage.js",
-    "./dist/storage.cjs": "./dist/storage.cjs",
+    "./dist/storage.mjs": "./dist/storage.mjs",
     "./storage": {
       "types": "./storage.d.ts",
       "module": "./storage.js",
       "import": "./storage.js",
-      "require": "./dist/storage.cjs"
+      "require": "./dist/storage.mjs"
     },
     "./string.js": "./string.js",
-    "./dist/string.cjs": "./dist/string.cjs",
+    "./dist/string.mjs": "./dist/string.mjs",
     "./string": {
       "types": "./string.d.ts",
       "module": "./string.js",
       "import": "./string.js",
-      "require": "./dist/string.cjs"
+      "require": "./dist/string.mjs"
     },
     "./symbol.js": "./symbol.js",
-    "./dist/symbol.cjs": "./dist/symbol.cjs",
+    "./dist/symbol.mjs": "./dist/symbol.mjs",
     "./symbol": {
       "types": "./symbol.d.ts",
       "module": "./symbol.js",
       "import": "./symbol.js",
-      "require": "./dist/symbol.cjs"
+      "require": "./dist/symbol.mjs"
     },
     "./testing.js": "./testing.js",
-    "./dist/testing.cjs": "./dist/testing.cjs",
+    "./dist/testing.mjs": "./dist/testing.mjs",
     "./testing": {
       "types": "./testing.d.ts",
       "module": "./testing.js",
       "import": "./testing.js",
-      "require": "./dist/testing.cjs"
+      "require": "./dist/testing.mjs"
     },
     "./time.js": "./time.js",
-    "./dist/time.cjs": "./dist/time.cjs",
+    "./dist/time.mjs": "./dist/time.mjs",
     "./time": {
       "types": "./time.d.ts",
       "module": "./time.js",
       "import": "./time.js",
-      "require": "./dist/time.cjs"
+      "require": "./dist/time.mjs"
     },
     "./tree.js": "./tree.js",
-    "./dist/tree.cjs": "./dist/tree.cjs",
+    "./dist/tree.mjs": "./dist/tree.mjs",
     "./tree": {
       "types": "./tree.d.ts",
       "module": "./tree.js",
       "import": "./tree.js",
-      "require": "./dist/tree.cjs"
+      "require": "./dist/tree.mjs"
     },
     "./url.js": "./url.js",
-    "./dist/url.cjs": "./dist/url.cjs",
+    "./dist/url.mjs": "./dist/url.mjs",
     "./url": {
       "types": "./url.d.ts",
       "module": "./url.js",
       "import": "./url.js",
-      "require": "./dist/url.cjs"
+      "require": "./dist/url.mjs"
     },
     "./websocket.js": "./websocket.js",
-    "./dist/websocket.cjs": "./dist/websocket.cjs",
+    "./dist/websocket.mjs": "./dist/websocket.mjs",
     "./websocket": {
       "types": "./websocket.d.ts",
       "module": "./websocket.js",
       "import": "./websocket.js",
-      "require": "./dist/websocket.cjs"
+      "require": "./dist/websocket.mjs"
     },
     "./webcrypto": {
       "types": "./webcrypto.d.ts",
       "deno": "./webcrypto.deno.js",
       "bun": "./webcrypto.js",
-      "react-native": "./dist/webcrypto.react-native.cjs",
+      "react-native": "./dist/webcrypto.react-native.mjs",
       "browser": {
         "module": "./webcrypto.js",
-        "require": "./dist/webcrypto.cjs",
+        "require": "./dist/webcrypto.mjs",
         "default": "./webcrypto.js"
       },
       "node": {
         "module": "./webcrypto.node.js",
-        "require": "./dist/webcrypto.node.cjs",
+        "require": "./dist/webcrypto.node.mjs",
         "default": "./webcrypto.node.js"
       },
       "default": {
         "module": "./webcrypto.js",
-        "require": "./dist/webcrypto.cjs",
+        "require": "./dist/webcrypto.mjs",
         "default": "./webcrypto.js"
       }
     },
     "./performance.js": "./performance.js",
-    "./dist/performance.cjs": "./dist/performance.node.cjs",
+    "./dist/performance.mjs": "./dist/performance.node.mjs",
     "./performance": {
       "types": "./performance.d.ts",
       "deno": "./performance.node.js",
       "bun": "./performance.node.js",
       "browser": {
         "module": "./performance.js",
-        "require": "./dist/performance.cjs",
+        "require": "./dist/performance.mjs",
         "default": "./performance.js"
       },
       "node": {
         "module": "./performance.node.js",
-        "require": "./dist/performance.node.cjs",
+        "require": "./dist/performance.node.mjs",
         "default": "./performance.node.js"
       },
       "default": {
         "module": "./performance.js",
-        "require": "./dist/performance.cjs",
+        "require": "./dist/performance.mjs",
         "default": "./performance.js"
       }
     }
@@ -501,8 +501,8 @@
     "test": "c8 --check-coverage --lines 100 --branches 100 --functions 100 --statements 100 node --unhandled-rejections=strict ./test.js --repetition-time 50 --production",
     "test-inspect": "node --inspect-brk --unhandled-rejections=strict ./test.js --repetition-time 50 --production",
     "test-extensive": "c8 --check-coverage --lines 100 --branches 100 --functions 100 --statements 100 node test.js --repetition-time 30000 --extensive --production",
-    "trace-deopt": "clear && rollup -c  && node --trace-deopt dist/test.cjs",
-    "trace-opt": "clear && rollup -c  && node --trace-opt dist/test.cjs",
+    "trace-deopt": "clear && rollup -c  && node --trace-deopt dist/test.mjs",
+    "trace-opt": "clear && rollup -c  && node --trace-opt dist/test.mjs",
     "lint": "standard && tsc",
     "gendocs": "node ./bin/gendocs.js",
     "preversion": "npm run clean && npm run lint && npm run test && npm run types && npm run dist && git add README.md",
