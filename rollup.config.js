@@ -15,4 +15,15 @@ export default [{
     chunkFileNames: '[name]-[hash].cjs'
   },
   external: ['isomorphic.js', 'node:crypto', 'lib0/webcrypto', 'lib0/performance', 'perf_hooks', 'isomorphic-webcrypto', 'node:perf_hooks', 'lib0/logging']
+},{
+
+  input: files,
+  output: {
+    dir: './dist',
+    format: 'es',
+    sourcemap: true,
+    entryFileNames: '[name].mjs',
+    chunkFileNames: '[name]-[hash].mjs'
+  },
+  external: ['isomorphic.js', 'node:crypto', 'lib0/webcrypto', 'lib0/performance', 'perf_hooks', 'isomorphic-webcrypto', 'node:perf_hooks', 'lib0/logging']
 }]
