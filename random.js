@@ -8,7 +8,7 @@
 
 import * as math from './math.js'
 import * as binary from './binary.js'
-import { getRandomValues } from 'lib0/webcrypto'
+import { getRandomValues } from 'rdlib0/webcrypto'
 
 export const rand = Math.random
 
